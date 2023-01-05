@@ -5,9 +5,10 @@ import { UserRoutingModule } from './user-routing.module';
 import { UserComponent } from './user.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { UserInfoDetailComponent } from './user-info/user-info-detail/user-info-detail.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [UserComponent, UserInfoComponent, UserInfoDetailComponent],
-  imports: [CommonModule, UserRoutingModule],
+  imports: [CommonModule, UserRoutingModule, MatTableModule],
 })
 export class UserModule {}

@@ -1,0 +1,7 @@
+table {
+  margin: auto;
+}
+
+.mdc-data-table__table {
+  min-width: 50%;
+}

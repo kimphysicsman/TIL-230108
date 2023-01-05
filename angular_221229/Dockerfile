@@ -8,3 +8,7 @@ RUN npm update & npm install -g @angular/cli@13
 COPY package.json package-lock.json ./
 
 COPY . .
+
+RUN ng add @angular/material
+
+

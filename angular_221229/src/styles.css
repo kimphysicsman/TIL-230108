@@ -8,12 +8,3 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-
-.user-info-detail-box {
-  background-color: aquamarine;
-  color: red;
-}
-
-.mat-mdc-dialog-container {
-  --mdc-dialog-container-color: rgba(0, 0, 0, 0);
-}

@@ -2,6 +2,7 @@ import { Component, SkipSelf, OnInit } from '@angular/core';
 import { AppService } from 'src/app/service/app.service';
 import { MatDialog } from '@angular/material/dialog';
 import { UserInfoDetailComponent } from './user-info-detail/user-info-detail.component';
+import { USER_DATAS } from 'src/app/data-class/user';
 
 @Component({
   selector: 'app-user-info',
@@ -21,4 +22,7 @@ export class UserInfoComponent implements OnInit {
       data: this.appService,
     });
   }
+
+  displayedColumns: string[] = ['id', 'username', 'created_at'];
+  dataSource = USER_DATAS;
 }

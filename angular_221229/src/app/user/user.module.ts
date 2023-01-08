@@ -6,9 +6,10 @@ import { UserComponent } from './user.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { UserInfoDetailComponent } from './user-info/user-info-detail/user-info-detail.component';
 import { MatTableModule } from '@angular/material/table';
+import { HomeModule } from '../home/home.module';
 
 @NgModule({
   declarations: [UserComponent, UserInfoComponent, UserInfoDetailComponent],
-  imports: [CommonModule, UserRoutingModule, MatTableModule],
+  imports: [CommonModule, UserRoutingModule, MatTableModule, HomeModule],
 })
 export class UserModule {}

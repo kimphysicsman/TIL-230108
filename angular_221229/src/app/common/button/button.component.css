@@ -1,0 +1,18 @@
+.common-btn {
+  width: 200px;
+  height: 50px;
+
+  padding: 10px;
+  font-size: 20px;
+
+  background-color: aqua;
+
+  border: 1px solid gray;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.common-btn:hover {
+  background-color: blue;
+}

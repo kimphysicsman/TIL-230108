@@ -25,4 +25,6 @@ export class HomeComponent {
       () => this.router.navigate(['/user'])
     );
   }
+
+  homeBtnText: string = '로그인';
 }

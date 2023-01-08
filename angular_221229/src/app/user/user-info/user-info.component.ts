@@ -3,6 +3,7 @@ import { AppService } from 'src/app/service/app.service';
 import { MatDialog } from '@angular/material/dialog';
 import { UserInfoDetailComponent } from './user-info-detail/user-info-detail.component';
 import { USER_DATAS } from 'src/app/data-class/user';
+import { ButtonComponent } from 'src/app/common/button/button.component';
 
 @Component({
   selector: 'app-user-info',
@@ -25,4 +26,9 @@ export class UserInfoComponent implements OnInit {
 
   displayedColumns: string[] = ['id', 'username', 'created_at'];
   dataSource = USER_DATAS;
+
+  userBtnText: string = '상세보기';
+  userBtnStyle: {} = {
+    'background-color': '#ffcfcf',
+  };
 }

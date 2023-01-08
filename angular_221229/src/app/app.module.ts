@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { UserModule } from './user/user.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,8 +20,10 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatDialogModule,
     BrowserAnimationsModule,
     RouterModule,
+    HomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
+  exports: [],
 })
 export class AppModule {}
